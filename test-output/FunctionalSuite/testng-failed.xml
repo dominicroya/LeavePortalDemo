@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FunctionalSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.TestCasesLeavePortal.RejectLeave2">
+        <methods>
+          <include name="setup"/>
+          <include name="Time"/>
+          <include name="tearDown"/>
+          <include name="ViewLeaveDetail"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.RejectLeave2 -->
+      <class name="com.TestCasesLeavePortal.EmployeeFunctions">
+        <methods>
+          <include name="ApplyLeave"/>
+          <include name="ChangePasswordDigit"/>
+          <include name="ApplyLeaveInvalidDate"/>
+          <include name="setup"/>
+          <include name="Time"/>
+          <include name="screenShot"/>
+          <include name="tearDown"/>
+          <include name="CancelAppliedLeave"/>
+          <include name="changePassword"/>
+          <include name="ViewLeaveDetail"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.EmployeeFunctions -->
+      <class name="com.TestCasesLeavePortal.LeaveSummaryExcel">
+        <methods>
+          <include name="LeaveSummaryData"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.LeaveSummaryExcel -->
+      <class name="com.TestCasesLeavePortal.ManagerFunctions">
+        <methods>
+          <include name="apply"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.ManagerFunctions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FunctionalSuite] -->

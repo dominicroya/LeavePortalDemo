@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LeavePortalDemo]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.TestCasesLeavePortal.TC_LeaveHistory_003">
+        <methods>
+          <include name="LeaveSummary"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.TC_LeaveHistory_003 -->
+      <class name="com.TestCasesLeavePortal.TC_LoginTest_001">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- com.TestCasesLeavePortal.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [LeavePortalDemo] -->
