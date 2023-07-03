@@ -214,7 +214,8 @@ public class EmployeeFunctions extends BaseClass{
 		String ExpError="Password must be atleast 8 characters ";
 		String ActError=cpd.errorm.getText();
 		Assert.assertEquals(ExpError, ActError);
-		driver.navigate().refresh();		
+		driver.navigate().refresh();
+		Thread.sleep(2000);
 	}
 	
 	@Test(priority=11)
